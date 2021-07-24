@@ -1,0 +1,121 @@
+/*  FONTI */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	color: white;
+	font-family: 'zen loop', sans-serif;
+}
+
+pre{
+	color: white;
+	font-family: 'zen loop', sans-serif;
+	font-size: 20px;
+}
+
+p{
+	color: white;
+	font-family: 'zen loop', sans-serif;
+	font-size: 20px;
+}
+
+body{
+	background-image: url(https://i.pinimg.com/originals/dc/73/24/dc7324c157408943e708e7009fc93476.jpg);
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	}
+
+
+
+ul{
+	color: white;
+	list-style-type: circle;
+	font-size: 16px;
+	font-family:'zen loop', sans-serif;
+
+}
+
+/* NAVIGATION BAR */
+
+.menu{
+	width: 100;
+	height: 100px;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+}
+
+.leftmenu h4{
+	padding-left: 60px;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	font-family: 'zen loop', sans-serif;
+}
+
+.rightmenu{
+	width: 70%;
+	height: 100px;
+	float: right;
+}
+
+.rightmenu ul{
+	margin-left: 500px;
+}
+
+.rightmenu ul a{
+	text-decoration: none;
+	font-family: 'zen loop', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 100px;
+	text-transform: uppercase;
+}
+
+.rightmenu ul a:hover{
+	color: blue;
+}
+
+#long_boii{
+	width: 1px;
+	height: 2080px;
+}
+
+.o_igri{
+	position: relative;
+	left: 500px;
+	top: 100px;
+}
+
+#o_igri_naslov{
+	margin-bottom: 20px;
+}
+
+li{
+	margin-bottom: 5px;
+}
+
+#classe_ul{
+	position: relative;
+	left: 540px;
+}
+
+#demo_description{
+	position: relative;
+	top: 500px;
+	text-align: center;
+}
